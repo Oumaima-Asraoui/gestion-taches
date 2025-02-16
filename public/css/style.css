@@ -1,0 +1,220 @@
+/* 🎨 Style global */
+body {
+    padding: 0;
+    margin: 0;
+    background: #f4f6f9;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+/* 🎯 Titre principal */
+h1 {
+    color: #333;
+    font-size: 1.6em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-bottom: 4px solid #6c757d;
+    display: inline-block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    color: #333;
+    font-size: 1.3em;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-bottom: 4px solid #6c757d;
+    display: inline-block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 📦 Conteneur principal */
+.container {
+    max-width: 90%;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.01);
+}
+
+/* 📊 Tableau élégamment stylisé */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    background: #fff;
+}
+
+/* 🏷️ En-têtes du tableau */
+th {
+    background: #6c757d;
+    color: white;
+    padding: 18px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #495057;
+    text-align: center; /* Centre le texte */
+}
+
+
+/* 📄 Cellules */
+td {
+    padding: 18px;
+    font-size: 1.1em;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    transition: background 0.2s ease;
+    text-align: center;
+}
+
+/* 🖌 Alternance des couleurs */
+tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+/* 🌟 Effet au survol */
+tr:hover {
+    background: rgba(108, 117, 125, 0.1);
+    transform: scale(1.02);
+}
+
+/* 🔥 Priorité des tâches (couleurs douces) */
+.priority-low {
+    background: #e9f7e6; /* Vert pâle */
+    color: #28a745;
+}
+
+.priority-medium {
+    background: #fff3cd; /* Jaune pâle */
+    color: #ffc107;
+}
+
+.priority-high {
+    background: #f8d7da; /* Rouge pâle */
+    color: #dc3545;
+}
+
+/* 🎯 Icônes de tâche */
+.task-icon {
+    width: 24px;
+    height: 24px;
+    font-size: 24px !important;
+    cursor: pointer;
+    margin-right: 15px;
+    color: #6c757d;
+    transition: transform 0.3s ease-in-out, color 0.3s ease;
+}
+
+.task-icon:hover {
+    transform: scale(1.2);
+    color: #495057;
+}
+
+/* ✅ Boutons élégants */
+button {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: #495057;
+    transform: scale(1.05);
+}
+
+/* 📱 Responsive Design */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+
+    button {
+        padding: 12px 18px;
+        font-size: 1em;
+    }
+}
+.badge {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.bg-secondary { background-color: #6c757d; color: white; }  /* To Do */
+.bg-warning { background-color: #f39c12; color: white; }    /* In Progress */
+.bg-success { background-color: #28a745; color: white; }    /* Done */
+.status-todo {
+    background-color: #f39c12; /* Orange */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status-in-progress {
+    background-color: #3498db; /* Bleu */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status-done {
+    background-color: #2ecc71; /* Vert */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.img-fluid-full {
+    object-fit: cover; /* Cela permet à l'image de couvrir tout l'espace du conteneur */
+    width: 100%;
+    height: 100%;
+}
+body {
+    background: #f8f9fa;
+}
+
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
